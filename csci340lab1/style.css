@@ -1,0 +1,12 @@
+.jumbotron {
+    /*background image licensed CC BY-SA 4.0; Wikimedia user Dobbediedob*/
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Nebel_am_fr%C3%BChen_Morgen.jpg/2560px-Nebel_am_fr%C3%BChen_Morgen.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron h1 {
+    color: #000000;
+}
