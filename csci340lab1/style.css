@@ -1,6 +1,6 @@
 .jumbotron {
-    /*background image licensed CC BY-SA 4.0; Wikimedia user Dobbediedob*/
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Nebel_am_fr%C3%BChen_Morgen.jpg/2560px-Nebel_am_fr%C3%BChen_Morgen.jpg');
+    /*background image licensed CC0*/
+    background-image: url('https://free-images.com/lg/812e/jam_homemade_home_cooked.jpg');
     background-size: cover;
     height: 500px;
     display: flex;
@@ -9,4 +9,10 @@
 
 .jumbotron h1 {
     font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.margin-top-sm {
+    margin-top: 2rem;
 }
