@@ -1,18 +1,44 @@
+body {
+    background-image: url('images/darkwoodbg.jpg');
+    background-repeat: repeat;
+}
+
 .jumbotron {
-    /*background image licensed CC0*/
-    background-image: url('https://free-images.com/lg/812e/jam_homemade_home_cooked.jpg');
+    /* background image licensed CC0 */
+    background-image: url('images/jamheader.jpg');
     background-size: cover;
-    height: 500px;
+    height: 400px;
     display: flex;
     align-items: center;
 }
 
 .jumbotron h1 {
+    font-family: Merriweather;
     font-size: 4rem;
-    color: #ffffff;
-    text-shadow: 3px 3px 3px #000000;
+    color: maroon;
+    text-shadow: 0px 0px 15px white;
 }
 
-.margin-top-sm {
-    margin-top: 2rem;
+.intro-textbox {
+    margin-top: 1rem;
+    background-color: #fff4;
+    box-shadow: 5px 5px 6px #fff2, -5px 5px 6px #fff2, -5px -5px 6px #fff2, 5px -5px 6px #fff2;
+    padding: 1rem;
+    padding-bottom: 0rem;
+    border-radius: 2rem;
+}
+
+.intro-textbox p {
+    font-family: Aleo;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #eee;
+}
+
+.intro-textbox p em {
+    color: #ebb;
+}
+
+.right-justified-text {
+    text-align: right;
 }
