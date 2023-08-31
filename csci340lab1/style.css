@@ -12,33 +12,49 @@ body {
     align-items: center;
 }
 
-.jumbotron h1 {
-    font-family: Merriweather;
-    font-size: 4rem;
-    color: maroon;
-    text-shadow: 0px 0px 15px white;
-}
-
-.intro-textbox {
-    margin-top: 1rem;
+.shadow-box {
+    margin-top: 1.25rem;
     background-color: #fff4;
     box-shadow: 5px 5px 6px #fff2, -5px 5px 6px #fff2, -5px -5px 6px #fff2, 5px -5px 6px #fff2;
     padding: 1rem;
-    padding-bottom: 0rem;
+    padding-bottom: 0;
     border-radius: 2rem;
 }
 
-.intro-textbox p {
+.title-text {
+    font-family: Merriweather;
+    font-size: 4rem;
+    color: #ebb;
+    text-shadow: 4px 4px 2px black;
+}
+
+.subtitle-text {
+    font-family: Merriweather;
+    color: #ebb;
+    text-shadow: 2px 2px 4px black;
+}
+
+.body-text {
     font-family: Aleo;
     font-weight: 700;
     font-size: 1.25rem;
     color: #eee;
+    text-shadow: 1px 3px 5px black;
 }
 
-.intro-textbox p em {
+.body-text em {
     color: #ebb;
+}
+
+.body-text a {
+    color: #7af;
+    text-decoration-line: none;
 }
 
 .right-justified-text {
     text-align: right;
+}
+
+.spacer-sm {
+    height: 2rem;
 }
