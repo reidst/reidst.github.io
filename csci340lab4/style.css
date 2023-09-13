@@ -1,0 +1,14 @@
+#cat {
+    width: 100%;
+}
+
+blockquote p {
+    background: #eee;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+blockquote p::first-letter {
+    font-size: 2rem;
+}

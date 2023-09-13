@@ -2,6 +2,7 @@
 
 <head>
     <title>Lab 4 - APIs and Ajax</title>
+    <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
@@ -13,9 +14,34 @@
 <body>
     <section class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <h1>This is the Header</h1>
-                <p>This is the body</p>
+            <div class="col-md-6">
+                <h1>Stowocism Quotes</h1>
+                <blockquote cite="https://plato.stanford.edu/entries/stoicism/">
+                    <p>Stoicism was one of the dominant philosophical systems of the Hellenistic period. The name
+                        derives from the porch (<em>stoa poikilê</em>) in the Agora at Athens decorated with mural
+                        paintings,
+                        where the first generation of Stoic philosophers congregated and lectured. The school of thought
+                        founded there long outlived the physical Athenian porch and notably enjoyed continued popularity
+                        in the Roman period and beyond. This entry introduces the main doctrines and arguments of the
+                        three parts of Stoic philosophy – physics, logic, and ethics – emphasizing their interlocking
+                        structure. We also review the history of the school, the extant sources for Stoic doctrine, and
+                        the Stoics’ subsequent philosophical influence.</p>
+                    <footer>&mdash;Durand, Marion, Simon Shogry, and Dirk Baltzly, <cite>Stanford Encyclopedia of
+                            Philosophy</cite></footer>
+                </blockquote>
+                <blockquote cite="https://en.wikipedia.org/wiki/Catgirl">
+                    <p>A catgirl (猫娘, nekomusume) is a female kemonomimi character with feline traits, such as cat ears
+                        (猫耳, nekomimi), a cat tail, or other feline characteristics on an otherwise human body. Catgirls
+                        are found in various fiction genres and in particular Japanese anime and manga. Catboy is a term
+                        for a male equivalent of said character type.</p>
+                    <footer>&mdash;Wikipedia, <cite>Catgirl</cite></footer>
+                </blockquote>
+                <button id="new-quote-button">New Quote</button>
+            </div>
+            <div class="col-md-6">
+                <p id="quote-text"></p>
+                <img id="cat" alt="A drawing of a catboy, randomly selected from an online API.">
+                <p id="image-author"></p>
             </div>
         </div>
     </section>
