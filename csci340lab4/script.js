@@ -3,6 +3,8 @@ function main() {
     console.log("Hello, world!");
     $("#new-quote-button").click(rerollQuote);
     rerollQuote();
+    $("#new-bg-button").click(randomizeBackgroundNoise);
+    randomizeBackgroundNoise();
 
 };
 
@@ -37,6 +39,17 @@ function randomizeStoicQuote() {
             $("#quote-text").html(`${quote} ${results.author}`);
         }
     })
+}
+
+function randomizeBackgroundNoise() {
+    $.ajax({
+        dataType: "json",
+        url: "https://php-noise.com/noise.php?json",
+        success: function (results) {
+            console.log(results);
+            $("body").css("background-image", `url("${results.uri}")`);
+        }
+    });
 }
 
 $(document).ready(main);

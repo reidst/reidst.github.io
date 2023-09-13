@@ -5,21 +5,27 @@
     transform: translateX(-50%);
 }
 
+#quote-text {
+    margin-top: 10px;
+}
+
+.container {
+    background: #fff8;
+    border-radius: 10px;
+}
+
 .row {
     margin-top: 10px;
 }
 
 .soft-bg {
-    background: #eee;
+    background: #ddd8;
     padding: 8px;
     border-radius: 10px;
 }
 
-body {
-    font-family: serif;
-}
-
-h1 {
+h1,
+h2 {
     font-family: "Noto-Serif-Khitan-Small-Script", serif;
 }
 
@@ -32,4 +38,9 @@ blockquote footer {
 blockquote p::first-letter {
     font-size: 2rem;
     margin-right: 2px;
+}
+
+button {
+    border-radius: 5px;
+    border-style: hidden;
 }
