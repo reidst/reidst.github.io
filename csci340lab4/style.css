@@ -1,12 +1,8 @@
 #cat {
-    align-content: center;
-    margin: auto;
     max-width: 100%;
     max-height: 75vh;
-}
-
-.center-content {
-    align-items: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .row {
