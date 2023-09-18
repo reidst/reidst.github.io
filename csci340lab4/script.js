@@ -6,10 +6,12 @@ function main() {
     $("#new-bg-button").click(randomizeBackgroundNoise);
     randomizeBackgroundNoise();
 
+    $("#cat").attr("src", "https://art.ngfiles.com/images/1739000/1739480_deadkinn_niko.jpg?f1617898704");
+    $("#image-author").html(`catboys.com has died, so until a suitable replacement is found, <a href="https://www.newgrounds.com/art/view/deadkinn/niko">Niko</a> by <a href="https://deadkinn.newgrounds.com/">DeadKinn</a> will read stowoic quotes for you.`);
 };
 
 function rerollQuote() {
-    randomizeCatboyImg();
+    // randomizeCatboyImg();
     randomizeStoicQuote();
 }
 
