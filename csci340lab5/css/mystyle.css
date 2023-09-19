@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(119, 88, 70);
+}
+
 .title-text {
     font-family: Merriweather;
     font-size: 4rem;
@@ -5,6 +9,7 @@
     text-shadow: 4px 4px 2px black;
 }
 
+h2,
 .subtitle-text {
     font-family: Merriweather;
     font-size: 1.5rem;
@@ -12,7 +17,8 @@
     text-shadow: 2px 2px 4px black;
 }
 
-.body-text {
+.lead,
+.mb-0 {
     font-family: Aleo;
     font-weight: 700;
     font-size: 1.25rem;
@@ -20,11 +26,11 @@
     text-shadow: 1px 3px 5px black;
 }
 
-.body-text em {
+em {
     color: #ebb;
 }
 
-.body-text a {
+a {
     color: #7af;
     text-decoration-line: none;
 }
