@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var url = new URL(window.location.href);
+var emailSubject = url.searchParams.get("subject");
+var mailto = `mailto:reidst@hendrix.edu&subject=${emailSubject}`;
+window.location.replace(mailto);
+</script>
+</body>
+</html>
